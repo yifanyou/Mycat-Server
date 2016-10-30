@@ -21,7 +21,7 @@ import java.util.concurrent.TimeUnit;
 
 public class ZKUtils {
     private static final Logger LOGGER = LoggerFactory.getLogger(ZKUtils.class);
-  static   CuratorFramework curatorFramework=null;
+    static   CuratorFramework curatorFramework=null;
     static {
         curatorFramework=createConnection();
         Runtime.getRuntime().addShutdownHook(new Thread(new Runnable() {
