@@ -34,8 +34,8 @@ import io.mycat.config.Isolations;
  * @author mycat
  */
 public final class SystemConfig {
- 
-	public static final String SYS_HOME = "MYCAT_HOME";
+
+	public static final String SYS_HOME = "MYCAT_HOME";    
 	private static final int DEFAULT_PORT = 8066;
 	private static final int DEFAULT_MANAGER_PORT = 9066;
 	private static final String DEFAULT_CHARSET = "utf8";
